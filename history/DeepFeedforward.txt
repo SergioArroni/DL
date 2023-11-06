@@ -121,3 +121,15 @@ Accuracy for the training set: 0.9999655485153198
 Accuracy for the development test set: 1.0
 Time: 17.944123600027524
 --------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 250
+Dropout: 0.2
+Neurons per layer: [50, 10]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 30.93367759999819
+--------------------------------------------------------------------------------------------
