@@ -1,0 +1,123 @@
+DeepFeedforward
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.1
+Neurons per layer: [500, 250, 75, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 152.54603659990244
+--------------------------------------------------------------------------------------------
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [500, 250, 75, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 138.07221240003128
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [500, 250, 75, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.9999655485153198
+Accuracy for the development test set: 1.0
+Time: 75.65785129996948
+--------------------------------------------------------------------------------------------
+Epoque: 150
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [500, 250, 75, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.9999310970306396
+Accuracy for the development test set: 1.0
+Time: 93.38526189990807
+--------------------------------------------------------------------------------------------
+Epoque: 2
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [500, 250, 75, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.9987593293190002
+Accuracy for the development test set: 1.0
+Time: 4.20937449997291
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [500, 250, 125]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 67.29340219998267
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [1000, 500, 125, 25]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 163.58561569999438
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [250, 125]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 1.0
+Accuracy for the development test set: 1.0
+Time: 36.47459989995696
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.5
+Neurons per layer: [100, 20]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.9997932314872742
+Accuracy for the development test set: 1.0
+Time: 23.689233600045554
+--------------------------------------------------------------------------------------------
+Epoque: 100
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [50, 10]
+Activation: relu
+Optimizer: Adam
+--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.9999655485153198
+Accuracy for the development test set: 1.0
+Time: 17.944123600027524
+--------------------------------------------------------------------------------------------
