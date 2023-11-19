@@ -349,3 +349,67 @@ Accuracy for the training set: 0.8720706105232239
 Accuracy for the development test set: 0.8596636056900024
 Time: 201.77682389999973
 --------------------------------------------------------------------------------------------
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [500, 250, 125, 50]
+Activation: elu
+Optimizer: Adam
+model.add(keras.layers.Dense(neurons, kernel_initializer=he_normal, use_bias=False)); model.add(keras.layers.BatchNormalization()); model.add(keras.layers.Activation(elu)); model.add(tf.keras.layers.Dropout(tasa_dropout))--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.8715881109237671
+Accuracy for the development test set: 0.8626964688301086
+Time: 224.38327419999405
+--------------------------------------------------------------------------------------------
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [1024, 512, 256]
+Activation: elu
+Optimizer: Adam
+seed = 0
+model.add(keras.layers.Dense(neurons, kernel_initializer=he_normal, use_bias=False)); model.add(keras.layers.BatchNormalization()); model.add(keras.layers.Activation(elu)); model.add(tf.keras.layers.Dropout(tasa_dropout))--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.876619815826416
+Accuracy for the development test set: 0.8610422015190125
+Time: 536.3358705999854
+--------------------------------------------------------------------------------------------
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [500, 250, 125, 50, 10]
+Activation: elu
+Optimizer: Adam
+seed = 2024
+model.add(keras.layers.Dense(neurons, kernel_initializer=he_normal, use_bias=False)); model.add(keras.layers.BatchNormalization()); model.add(keras.layers.Activation(elu)); model.add(tf.keras.layers.Dropout(tasa_dropout))--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.8687276244163513
+Accuracy for the development test set: 0.8701406121253967
+Time: 226.68172360002063
+--------------------------------------------------------------------------------------------
+Epoque: 200
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [500, 250, 125, 50, 10]
+Activation: elu
+Optimizer: Adam
+seed = 2023
+model.add(keras.layers.Dense(neurons, kernel_initializer=he_normal, use_bias=False)); model.add(keras.layers.BatchNormalization()); model.add(keras.layers.Activation(elu)); model.add(tf.keras.layers.Dropout(tasa_dropout))--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.8703129291534424
+Accuracy for the development test set: 0.8759305477142334
+Time: 223.7571537999902
+--------------------------------------------------------------------------------------------
+Epoque: 400
+Learning Rate: 0.001
+Batch Size: 512
+Dropout: 0.2
+Neurons per layer: [500, 250, 125, 50, 10]
+Activation: elu
+Optimizer: Adam
+seed = 2023
+model.add(keras.layers.Dense(neurons, kernel_initializer=he_normal, use_bias=False)); model.add(keras.layers.BatchNormalization()); model.add(keras.layers.Activation(elu)); model.add(tf.keras.layers.Dropout(tasa_dropout))--------------------------------------------------------------------------------------------
+Accuracy for the training set: 0.8879583477973938
+Accuracy for the development test set: 0.8811690211296082
+Time: 437.0507530000177
+--------------------------------------------------------------------------------------------
